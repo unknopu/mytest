@@ -1,0 +1,13 @@
+<html>
+	<h2 style="text-decoration: underline;">{{ .username }}</h2>
+	<p>Status: <b>{{ .status }}</b></p>
+	<p>win: {{ .win }}</p>
+	<p>lose: {{ .lose }}</p>
+	<hr>
+	<div class="prev_match">
+		<h3 style="text-decoration: underline;">Last match</h3>
+		<p>username: {{ .cname }}</p>
+		<p>result: {{ .cresult }}</p>
+	</div>
+
+</html>
